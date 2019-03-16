@@ -6,6 +6,7 @@ public class SearchPage extends TestBase {
 	
 	public void clickOnSaerchButton() {
 		System.out.println("clicked");
+		System.out.println("done");
 	}
 
 }
