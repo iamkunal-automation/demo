@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReport.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.qa.testCases.HomePageTest">
+        <methods>
+          <include name="sendEnquiryTest"/>
+          <include name="newEmailSubscriptionTest"/>
+          <include name="accountUpdateTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="existingEmailSubscriptionTest"/>
+        </methods>
+      </class> <!-- com.qa.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="com.qa.testCases.SignUpPageTest">
+        <methods>
+          <include name="SignUpFormTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testCases.SignUpPageTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
