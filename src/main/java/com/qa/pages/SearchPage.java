@@ -8,7 +8,7 @@ public class SearchPage extends TestBase {
 		System.out.println("clicked");
 		System.out.println("done");
                 System.out.println("done 1");
-System.out.println("done 3");
+
 	}
 
 }
